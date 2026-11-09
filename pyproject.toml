@@ -1,0 +1,43 @@
+[project]
+name = "insightforge"
+version = "0.1.0"
+description = "AI-powered business intelligence capstone project"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=6.29",
+    "jupyterlab>=4.2",
+    "langchain-anthropic>=0.3",
+    "langchain-classic>=1.0",
+    "langchain-core>=0.3",
+    "langchain-openai>=0.3",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "plotly>=5.24",
+    "python-dotenv>=1.0",
+    "seaborn>=0.13",
+    "streamlit>=1.39",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.7",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".tmp_pdf_lib", ".cache"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+cache_dir = ".cache/pytest"
+
+

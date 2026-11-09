@@ -1,0 +1,22 @@
+order_id,date,product,category,region,customer_age,customer_segment,units,unit_price
+ORD-001,2026-01-03,Laptop Pro,Computers,South,29,Consumer,1,72000
+ORD-002,2026-01-05,Wireless Mouse,Accessories,North,41,Corporate,4,1500
+ORD-003,2026-01-08,Smartphone X,Phones,West,35,Consumer,2,32000
+ORD-004,2026-01-12,Office Laptop,Computers,East,46,Corporate,3,54000
+ORD-005,2026-01-18,USB-C Hub,Accessories,South,24,Consumer,2,2800
+ORD-006,2026-02-02,Smartphone X,Phones,North,31,Consumer,1,32000
+ORD-007,2026-02-07,Laptop Pro,Computers,West,38,Small Business,2,72000
+ORD-008,2026-02-11,Wireless Mouse,Accessories,East,52,Corporate,5,1500
+ORD-009,2026-02-16,Tablet Air,Tablets,South,27,Consumer,3,26000
+ORD-010,2026-02-24,Office Laptop,Computers,North,44,Small Business,1,54000
+ORD-011,2026-03-01,USB-C Hub,Accessories,West,33,Consumer,6,2800
+ORD-012,2026-03-06,Tablet Air,Tablets,East,39,Corporate,2,26000
+ORD-013,2026-03-10,Laptop Pro,Computers,South,48,Corporate,1,72000
+ORD-014,2026-03-15,Smartphone X,Phones,North,22,Consumer,3,32000
+ORD-015,2026-03-22,Wireless Mouse,Accessories,West,36,Small Business,8,1500
+ORD-016,2026-04-04,Office Laptop,Computers,East,43,Corporate,2,54000
+ORD-017,2026-04-09,Tablet Air,Tablets,South,30,Small Business,1,26000
+ORD-018,2026-04-14,USB-C Hub,Accessories,North,26,Consumer,5,2800
+ORD-019,2026-04-20,Smartphone X,Phones,West,50,Corporate,1,32000
+ORD-020,2026-04-28,Laptop Pro,Computers,East,34,Small Business,1,72000
+
